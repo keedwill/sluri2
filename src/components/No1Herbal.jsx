@@ -3,7 +3,7 @@ import React from 'react'
 export default function No1Herbal() {
   return (
     <div class="flex flex-col my-[5%] gap-6 mx-[5%] justify-center items-center">
-      <h1 class="text-3xl font-bold border-2 border-l-0 border-r-0 border-t-0 md:border-b-[#91bea4] border-blue-500 py-2 w-fit">
+      <h1 class="md:text-3xl text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 border-b-[#91bea4]  py-2 w-fit">
         NO. 1 HERBAL MEDICINE
       </h1>
       <div class="text-center">
