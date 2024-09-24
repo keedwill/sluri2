@@ -7,7 +7,7 @@ import "./App.css";
 import reportWebVitals from "./reportWebVitals";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
-import { Contact, Home } from "./components";
+import { About, Contact, Home } from "./components";
 
 
 const router = createBrowserRouter([
@@ -21,9 +21,13 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path:"/contact",
-        element:<Contact/>
-      }
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
     ],
   },
 ]);

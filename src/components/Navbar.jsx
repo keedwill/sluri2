@@ -1,10 +1,11 @@
+import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showNavBar, setShowNavBar] = useState(false);
   return (
-    <nav className="navbar bg-white border-b border-gray-200 w-full">
+    <nav className="navbar  w-full">
       <div className="container flex flex-wrap justify-between items-center px-4">
         <a href="/" className="">
           <img src="images/logo.jpg" className="h-20 md:h-24" alt="Logo" />
