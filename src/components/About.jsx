@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className=" flex-col flex ">
-      <div className="bg-gradient-to-br from-primary to-secondary h-[200px] text-secondary md:text-[54px] text-[40px] pl-[5%] items-center md:justify-normal justify-center flex font-bold">
+      <div className="bg-gradient-to-br from-primary to-secondary2 h-[200px] text-secondary md:text-[54px] text-[40px] pl-[5%] items-center md:justify-normal justify-center flex font-bold">
         ABOUT SLURI
       </div>
       <div className="m-[5%]  grid md:grid-cols-2 gap-12 md:gap-0  grid-cols-1">

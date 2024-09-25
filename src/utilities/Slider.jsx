@@ -21,7 +21,7 @@ function AutoSlideSlider() {
     "images/slider2.jpg",
     "images/slider3.jpg",
     "images/slider4.jpg",
-  ]
+  ];
 
   var settings = {
     dots: false,
@@ -62,16 +62,19 @@ function AutoSlideSlider() {
   };
 
   return (
-    <div className="slider-container   my-8">
-      <Slider ref={setSliderRef} {...settings} style={{}}>
+    <div className="slider-container    my-8  md:mx-[5%] mx-0">
+      <Slider ref={setSliderRef} {...settings} >
         {images.map((image) => (
-          <img
-            style={{ }}
-            className="p-8  object-center "
-            key={image}
-            src={image}
-            alt=""
-          />
+          <div className=" px-2">
+
+            <img
+              style={{}}
+              className="  shadow-2xl  rounded-2xl border  object-center "
+              key={image}
+              src={image}
+              alt=""
+            />
+          </div>
         ))}
         {/* Add more slides as needed */}
       </Slider>
