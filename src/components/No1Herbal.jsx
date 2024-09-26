@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function No1Herbal() {
   return (
-    <div class="flex flex-col my-[5%] gap-6 mx-[5%] justify-center items-center">
-      <h1 class="md:text-3xl text-2xl font-bold border-2 border-l-0 border-r-0 border-t-0 border-b-primary  py-2 w-fit">
+    <div class="flex flex-col mx-[5%]  gap-4 mt-6  justify-center items-center">
+      <h1 class="md:text-3xl text-2xl text-primary font-bold   py-2 w-fit">
         NO. 1 HERBAL MEDICINE
       </h1>
-      <div class="text-center">
+      <div class="text-center   text-secondary text-sm w-[100%]  ">
         Sluri herbal non-alcoholic drink is made with 100% natural ingredients.
         It is an ultimate libido boosting drink packed with many health
         benefits, which includes increasing vaginal lubrication, increasing

@@ -10,7 +10,7 @@ function AutoSlideSlider() {
     if (sliderRef) {
       const intervalId = setInterval(() => {
         sliderRef.slickNext();
-      }, 5000); // Adjust the interval as needed
+      }, 3000); // Adjust the interval as needed
 
       return () => clearInterval(intervalId);
     }
@@ -65,11 +65,11 @@ function AutoSlideSlider() {
     <div className="slider-container    my-8  md:mx-[5%] mx-0">
       <Slider ref={setSliderRef} {...settings} >
         {images.map((image) => (
-          <div className=" px-2">
+          <div className=" px-4">
 
             <img
               style={{}}
-              className="  shadow-2xl  rounded-2xl border  object-center "
+              className="    rounded-2xl   object-center "
               key={image}
               src={image}
               alt=""

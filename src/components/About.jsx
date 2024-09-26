@@ -1,16 +1,17 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    
+  }, []);
   return (
     <div className=" flex-col flex ">
-      <div className="bg-gradient-to-br from-primary to-secondary2 h-[200px] text-secondary md:text-[54px] text-[40px] pl-[5%] items-center md:justify-normal justify-center flex font-bold">
+      <div className="clip-path-circle overflow-x-clip bg-gradient-to-br from-primary to-[#91bea4] h-[200px] text-secondary md:text-[54px] text-[40px] pl-[5%] items-center md:justify-normal justify-center flex font-bold">
         ABOUT SLURI
       </div>
-      <div className="m-[5%]  grid md:grid-cols-2 gap-12 md:gap-0  grid-cols-1">
+      <div className="m-[5%]  grid  gap-12 md:gap-0  grid-cols-1 text-secondary">
         <div className="flex flex-col gap-4">
           <h5 className="text-lg font-bold">
             {" "}
@@ -38,17 +39,13 @@ const About = () => {
                 Discover the Power of Sluri
               </h5>
             </div>
-            <div className="pl-4">
-              <p className="flex items-center gap-2 ">
-                {" "}
-                <IoArrowForward />
+            <div className=" w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+              <div className="border-2 flex justify-center items-center  border-primary">
                 <span>Enhanced Libido and Sexual Desire</span>
-              </p>
-              <p className="flex items-center gap-2 ">
-                {" "}
-                <IoArrowForward />
+              </div>
+              <div className="flex items-center gap-2 ">
                 <span>Ease bowel movements and support digestive health.</span>
-              </p>
+              </div>
               <p className="flex items-center gap-2 ">
                 {" "}
                 <IoArrowForward />
@@ -146,25 +143,24 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
-          {/* <div className='relative  pt-[100%] pb-0 pr-0 pl-0' > */}
-            <iframe
-            width={'100%'}
-            height={'600px'}
-            className='   p-0'
-              src="https://player.vimeo.com/video/1012319592?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-              // style="position:absolute;top:0;left:0;width:100%;height:100%;"
-              title="VID-20240906-WA0076"
-            ></iframe>
-          {/* </div> */}
+        {/* <div>
+        
+          <iframe
+            width={"100%"}
+            height={"600px"}
+            className="   p-0"
+            src="https://player.vimeo.com/video/1012319592?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          
+            title="VID-20240906-WA0076"
+          ></iframe>
+        
           <script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
+        </div> */}
       </div>
-      
     </div>
   );
-}
+};
 
-export default About
+export default About;

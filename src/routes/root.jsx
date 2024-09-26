@@ -6,7 +6,7 @@ export default function Root() {
 
   return (
     <>
-      <div className="bg-secondary">
+      <div className="bg-black">
         <Navbar />
         <Outlet />
         <Footer />
