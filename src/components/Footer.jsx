@@ -15,7 +15,7 @@ export default function Footer() {
     <div className="md:h-[300px] h-full  flex flex-col mt-12 ">
       <div className=" h-[85%]  grid grid-cols-1 md:grid-cols-2 px-[5%] gap-6 md:gap-0">
         <div className=" flex flex-col gap-6">
-          <img src="images/logo.png" class="h-20 w-20  border " alt="" />
+          <img src="images/logo.png" class="h-12 w-12  border " alt="" />
 
           <div class="text-sm text-secondary flex flex-col gap-4 ">
             <p className="flex gap-2 items-center">
@@ -83,15 +83,15 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className=" px-[5%] flex md:flex-nowrap flex-wrap mt-4 md:justify-between justify-center gap-2">
-        <p className="text-secondary text-sm ">
+      <div className=" px-[5%] flex md:flex-nowrap flex-wrap mt-4 h-full md:justify-between justify-center text-xs items-center gap-2 bg-primary">
+        <p className="text-secondary  ">
           Copyright © <span>{new Date().getFullYear()} </span>
           Sluri Herbals, All Rights Reserved
         </p>
 
-        <p class="font-thin text-secondary text-sm flex gap-4">
+        <p class="font-thin text-secondary  flex gap-4">
           18+ Enjoy responsibly
-          <Link to={"/"} className="text-primary">
+          <Link to={"/"} className="text-black">
             www.sluri.com
           </Link>
         </p>

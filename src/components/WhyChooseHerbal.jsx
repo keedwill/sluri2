@@ -3,8 +3,8 @@ import React from "react";
 export default function WhyChooseHerbal() {
   return (
     <div class="grid md:grid-cols-2 grid-cols-1 h-full my-12 space-y-4 md:space-y-0  mx-[5%]">
-      <div class=" text-secondary  flex flex-col gap-6 justify-center items-center md:items-start">
-        <h1 class="font-bold md:text-3xl text-2xl text-primary">
+      <div class=" text-secondary  flex flex-col gap-6 justify-center items-center md:items-start px-[10%]">
+        <h1 class="font-bold md:text-3xl text-2xl text-primary text-center">
           Why Choose Herbal Medicine?{" "}
         </h1>
 

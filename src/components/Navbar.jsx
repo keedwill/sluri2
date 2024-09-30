@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar  w-full  ">
       <div className=" flex flex-wrap justify-between items-center px-4  ">
         <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }}  transition={{ duration: 2 }}  href="/" className="">
-          <img src="images/logo.png" className="h-20 " alt="Logo" />
+          <img src="images/logo.png" className="h-12 " alt="Logo" />
         </motion.a>
         <button
           className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden"
