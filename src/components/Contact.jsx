@@ -12,8 +12,8 @@ export default function Contact() {
     return () => clearTimeout(timeout);
   }, []);
   return (
-    <div className="w-[]  m-[5%] grid  md:grid-cols-2 grid-cols-1 ">
-      <div className="relative md:h-[700px] h-[600px]">
+    <div className="w-[]  m-[5%] grid  md:grid-cols-2 grid-cols-1  gap-6 md:gap-0">
+      <div className="relative md:h-[700px] h-[600px] ">
         <img
           alt=""
           src="images/twobottles.jpg"
@@ -25,8 +25,8 @@ export default function Contact() {
           }`}
         ></img>
       </div>
-      <div className={`  pl-[10%] `}>
-        <div className=" w-[100%] h-[100%]  flex flex-col gap-6">
+      <div className={` pl-0 md:pl-[10%] `}>
+        <div className=" w-[100%] md:h-[100%] h-[500px]  flex flex-col gap-6">
           <h1 id="circular" className=" text-[40px] text-primary">
             GET IN TOUCH
           </h1>
@@ -48,7 +48,7 @@ export default function Contact() {
               </label>
             </div>
 
-            <div class="grid md:grid-cols-2 md:gap-6">
+            <div class="grid md:grid-cols-2  gap-6">
               <div class="relative z-0 w-full  group">
                 <input
                   type="text"
